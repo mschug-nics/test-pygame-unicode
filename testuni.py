@@ -18,6 +18,4 @@ while True:
         if e.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-        
-        if e.type == pygame.KEYDOWN:
             
