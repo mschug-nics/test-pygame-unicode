@@ -17,7 +17,7 @@ class Coords:
 coords = Coords(random.randint(0,500-64), 500/2-32)
 
 mykeys = {
-    pygame.K_w: lambda: print("k"),
+    pygame.K_k: lambda: print("k"),
     pygame.K_s: lambda: print("s"),
     pygame.K_a: lambda: (setattr(coords,'y',0),setattr(coords,'x',random.randint(0,500-64))),
     pygame.K_ESCAPE: lambda: pygame.quit() & sys.exit()
